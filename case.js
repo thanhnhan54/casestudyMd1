@@ -102,6 +102,7 @@ function deleteCart(){
             let cartDel = event.target;
             let cartItemr = cartDel.parentElement.parentElement
             cartItemr.remove();
+            carttotal()
         })
      }
 }
